@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <main>
+
+      <section class="contact">
+        <div class="container">
+          <div class="left">
+            <div class="form-wrapper">
+              <div class="contact-heading">
+                <h1>Connect With Us<span>.</span></h1>
+                <p class="text">
+                  Or reach us via:
+                  <a href="mailto:xyz@gmail.com">xyz@gmail.com</a>
+                </p>
+              </div>
+
+              <form action="index.html" method="post" class="contact-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    autocomplete="off"
+                    name="First Name"
+                    class="contact-input"
+                    required
+                  />
+                  <label>First Name</label>
+                  <i class="icon fa-solid fa-address-card"></i>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    autocomplete="off"
+                    name="Last Name"
+                    class="contact-input"
+                    required
+                  />
+                  <label>Last Name</label>
+                  <i class="icon fa-solid fa-address-card"></i>
+                </div>
+
+                <div class="input-wrap w-100">
+                  <input
+                    type="text"
+                    autocomplete="off"
+                    name="First Name"
+                    class="contact-input"
+                    required
+                  />
+                  <label>Email</label>
+                  <i class="icon fa-solid fa-envelope"></i>
+                </div>
+
+                <div class="input-wrap textarea w-100">
+                  <textarea
+                    name="Message"
+                    autocomplete="off"
+                    class="contact-input"
+                    required
+                  ></textarea>
+                  <label>Message</label>
+                  <i class="icon fa-solid fa-inbox"></i>
+                </div>
+
+                <div class="contact-buttons w-100">
+                  <button class="btn upload">
+                    <span
+                      ><i class="fa-solid fa-paperclip"></i>Add attachment</span
+                    >
+                    <input type="file" name="attachment" />
+                  </button>
+                  <input type="submit" value="Send message" class="btn" />
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="image-wrapper">
+              <img src="./contact_img.jpg" alt="img" class="img" />
+
+              <div class="wave-wrap">
+                <svg
+                  class="wave"
+                  viewBox="0 0 783 1536"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    id="wave"
+                    d="M236.705 1356.18C200.542 1483.72 64.5004 1528.54 1 1535V1H770.538C793.858 63.1213 797.23 196.197 624.165 231.531C407.833 275.698 274.374 331.715 450.884 568.709C627.393 805.704 510.079 815.399 347.561 939.282C185.043 1063.17 281.908 1196.74 236.705 1356.18Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
